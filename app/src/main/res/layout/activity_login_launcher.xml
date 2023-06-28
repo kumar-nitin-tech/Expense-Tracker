@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Login_Activity_Launcher"
+    android:background="@color/bgColor">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:paddingTop="100dp"
+        android:text="@string/welcome_to"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@id/expenseTrackerTextLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/expenseTrackerTextLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="@string/expense_tracker"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/welcomeText" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/userPhotoLogin"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:src="@drawable/login"
+        app:layout_constraintBottom_toTopOf="@id/UserDetailLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/expenseTrackerTextLogin"
+        app:shapeAppearance="@style/userPhotoCircle"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp"
+        android:scaleType="centerCrop"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/UserDetailLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/cardbgColor"
+        android:elevation="4dp"
+        app:cardCornerRadius="29dp"
+        app:layout_constraintBottom_toTopOf="@id/nextButtonLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/userPhotoLogin">
+
+        <LinearLayout
+            android:id="@+id/cardLinearLayoutLogin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/userLoginName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:paddingTop="20dp"
+                android:text="@string/name_Login"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/userLoginNameInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_bg"
+                android:fontFamily="@font/poppins"
+                android:hint="@string/name_Login"
+                android:maxLines="1"
+                android:textColorHint="@color/editTextColor"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/nextButtonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/buttonColor"
+        android:text="@string/next"
+        android:textColor="@color/buttomTextColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Upload Image"
+        app:backgroundTint="@color/buttonColor"
+        app:fabCustomSize="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/userPhotoLogin"
+        app:layout_constraintEnd_toEndOf="@+id/userPhotoLogin"
+        app:layout_constraintStart_toStartOf="@+id/userPhotoLogin"
+        app:srcCompat="@drawable/baseline_add_24"
+        tools:ignore="HardcodedText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

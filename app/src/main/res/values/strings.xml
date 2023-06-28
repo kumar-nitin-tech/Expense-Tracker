@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Expense Tracker</string>
+        <string name="total_balance">Total Balance</string>
+        <string name="expense">Expense: </string>
+        <string name="welcome">Welcome</string>
+        <string name="remaining_balance">Remaining Balance</string>
+        <string name="transactions">Transactions</string>
+        <string name="history">History</string>
+        <string name="add">Add</string>
+        <string name="hello_blank_fragment">Hello blank fragment</string>
+        <string name="home">Home</string>
+        <string name="add_button">add button</string>
+        <string name="month_report">Month</string>
+        <string name="_00_00">₹ 00.00</string>
+        <string name="add_expense">Add Expense</string>
+        <string name="save">Save</string>
+        <string name="add_amount">Add Amount</string>
+        <string name="ExpenseCategory">Expense Category</string>
+        <string name="IncomeCategory">Income Category</string>
+        <string name="note">Note</string>
+        <string name="add_income">Add Income</string>
+        <string name="monthly_report">Monthly Report</string>
+        <string name="total_income">Total Income :</string>
+        <string name="total_expense">Total Expense :</string>
+        <string name="total_savings">Total Savings :</string>
+        <string name="buttom_for_adding_income_and_expense">buttom for adding income and expense</string>
+        <string name="enter_the_amount">Amount</string>
+        <string name="rupee">₹</string>
+        <string name="category">Category</string>
+        <string name="amount_expense">Amount</string>
+        <string name="welcome_to">Welcome to</string>
+        <string name="expense_tracker">Expense Tracker</string>
+        <string name="name_Login">Name</string>
+        <string name="upload_photo">Upload Photo</string>
+        <string name="skip">Skip</string>
+        <string name="next">Next</string>
+        <string name="transaction_amount_text">-₹100.00</string>
+        <string name="date">26-May-2023</string>
+        <string name="separatingLine">|</string>
+        <string name="title_activity_splash_screen">splashScreen</string>
+        <string name="dummy_button">Dummy Button</string>
+        <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>
