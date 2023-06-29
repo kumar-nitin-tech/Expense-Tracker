@@ -7,6 +7,6 @@
     Thing I lerant: Dialog box, Fragment, Recycler View
 
 ### Images of the app:
-    !{https://github.com/kumar-nitin-tech/Expense-Tracker/blob/master/Screenshots/Screenshot_1688039394.png}
+    !(https://github.com/kumar-nitin-tech/Expense-Tracker/blob/master/Screenshots/Screenshot_1688039394.png)
 
 
