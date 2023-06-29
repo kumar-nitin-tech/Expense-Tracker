@@ -7,11 +7,11 @@
     Thing I lerant: Dialog box, Fragment, Recycler View
 
 ### Images of the app:
-<p align="center">
-  <img width="300" height="460" src="https://github.com/kumar-nitin-tech/Expense-Tracker/blob/master/Screenshots/Screenshot_1688039394.png">
+<p align="left">
+  <img width="250" height="460" src="https://github.com/kumar-nitin-tech/Expense-Tracker/blob/master/Screenshots/Screenshot_1688039394.png">
 </p>
-![Expense Tracker](https://github.com/kumar-nitin-tech/Expense-Tracker/blob/master/Screenshots/Screenshot_1688039394.png)
-![](https://github.com/kumar-nitin-tech/Expense-Tracker/blob/master/Screenshots/Screenshot_1688039482.png)
-    
+<p align="right">
+  <img width="250" height="460" src="https://github.com/kumar-nitin-tech/Expense-Tracker/blob/master/Screenshots/Screenshot_1688039482.png">
+</p>
 
 
