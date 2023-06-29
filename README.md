@@ -9,9 +9,6 @@
 ### Images of the app:
 <p align="left">
   <img width="250" height="460" src="https://github.com/kumar-nitin-tech/Expense-Tracker/blob/master/Screenshots/Screenshot_1688039394.png">
+     <img width="250" height="460" src="https://github.com/kumar-nitin-tech/Expense-Tracker/blob/master/Screenshots/Screenshot_1688039482.png">
 </p>
-<p align="center">
-  <img width="250" height="460" src="https://github.com/kumar-nitin-tech/Expense-Tracker/blob/master/Screenshots/Screenshot_1688039482.png">
-</p>
-
 
