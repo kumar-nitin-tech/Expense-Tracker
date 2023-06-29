@@ -93,6 +93,7 @@
                 android:fontFamily="@font/poppins"
                 android:hint="@string/name_Login"
                 android:maxLines="1"
+                android:inputType="textPersonName"
                 android:textColorHint="@color/editTextColor"
                 android:textColor="@color/white"/>
 
