@@ -1,5 +1,5 @@
 # Expense-Tracker
-#Tech Stack used:
+## Tech Stack used:
 #Language:
   Koltin, SQL;
 #Layout:
