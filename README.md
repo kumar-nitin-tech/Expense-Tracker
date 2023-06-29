@@ -1,13 +1,13 @@
 # Expense-Tracker
-# Tech Stack used:
-# Language:
+#Tech Stack used:
+#Language:
   Koltin, SQL;
-# Layout:
+#Layout:
   Activity, Fragment
-# Architecture:
+#Architecture:
   MVVM
-# Database:
+#Database:
   Room Database
-# Thing I lerant:
+#Thing I lerant:
   Dialog box, Fragment, Recycler View
 
